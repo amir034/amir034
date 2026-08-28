@@ -1,0 +1,25 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Amir Choudhary">
+  <defs>
+    <linearGradient id="name" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="45%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+    <linearGradient id="line" x1="80" y1="0" x2="620" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="80" y="78" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" letter-spacing="6" fill="#67E8F9">GITHUB PROFILE</text>
+  <text x="80" y="148" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="72" font-weight="800" fill="url(#name)" filter="url(#glow)">Amir Choudhary</text>
+  <rect x="80" y="172" width="540" height="3" rx="2" fill="url(#line)"/>
+  <text x="80" y="208" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" fill="#94A3B8">I design, build, and ship products people actually use.</text>
+</svg>
