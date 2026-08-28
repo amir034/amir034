@@ -1,10 +1,12 @@
 <div align="center">
   <img src="assets/amir034-github-avatar.png" alt="Amir Choudhary" width="180" height="180" />
   <h1>Hi 👋 I'm Amir Choudhary</h1>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=1000&color=22D3EE&center=true&vCenter=true&width=740&lines=Full-stack+developer;JavaScript+%7C+Python;I+build+products+people+actually+use" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=1000&color=22D3EE&center=true&vCenter=true&width=780&lines=Frontend+JavaScript;Python+developer;ESP32+%26+ESP8266;Web+%2B+IoT+builder" alt="Typing intro" />
   <br />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Frontend_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Frontend JS" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP8266" />
   <img src="https://komarev.com/ghpvc/?username=amir034&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
 </div>
 
@@ -12,31 +14,53 @@
 
 ## 👋 A short introduction
 
-Hi, I'm **Amir Choudhary** — a full-stack developer who likes turning ideas into live products.
+Hi, I'm **Amir Choudhary** — I build web products and IoT hardware.
 
-I build web apps, storefronts, and tools with **JavaScript** and **Python**. I care about clean UI, fast shipping, and work that people can actually open in a browser.
+I work with **frontend JavaScript**, **Python**, and Espressif boards like **ESP32** and **ESP8266**. I care about clean UI, fast shipping, and things people can actually use — in the browser or on a chip.
 
 - 🔭 Currently building [Mr.FMGE](https://mr-fmge.vercel.app)
-- 🌱 Always shipping: exam platforms, e-commerce, and automation
-- ⚡ Fun fact: I would rather launch a real URL than keep a perfect local demo
+- 🌱 Working across web apps, e-commerce, Python tools, and ESP32 / ESP8266 projects
+- ⚡ Fun fact: I would rather launch a real URL (or flash a board) than keep a perfect local demo
 
 ---
 
-## 🛠️ Tech stack
+## 🛠️ Skills
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,python,nodejs,vercel,git,github,vscode" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=js,html,css,python,nodejs,arduino,c,cpp,git,github,vscode,vercel" alt="Skills" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+### Frontend
+<p>
+  <img src="https://img.shields.io/badge/Frontend_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Frontend JS" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+</p>
+
+### Python
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Automation-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python automation" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+</p>
+
+### Embedded / IoT
+<p>
+  <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=E7352C" alt="ESP32" />
+  <img src="https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP8266" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+  <img src="https://img.shields.io/badge/IoT-0A66C2?style=for-the-badge&logo=internetcomputer&logoColor=white" alt="IoT" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+</p>
+
+### Tools
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
 ---
