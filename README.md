@@ -1,9 +1,7 @@
 <div align="center">
-  <img src="assets/banner-anim.svg" alt="Amir Choudhary" width="100%" />
+  <img src="assets/amir034-header-banner.png" alt="Amir Choudhary header" width="100%" />
   <br/>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2200&pause=600&color=22D3EE&center=true&vCenter=true&width=900&lines=I+build+what+people+can+touch;Frontend+JavaScript;Python+%2B+Telegram+bots;ESP32+%26+ESP8266;Hugging+Face+%26+Netlify" alt="Typing animation" />
-  <br/><br/>
-  <img src="assets/skills-glory.svg" alt="Skills" width="100%" />
 </div>
 
 <br/>
