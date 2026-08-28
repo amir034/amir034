@@ -1,24 +1,12 @@
 <div align="center">
-  <img src="assets/amir034-github-banner.png" alt="Amir Choudhary" width="100%" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="assets/amir034-github-avatar.png" alt="Amir Choudhary profile picture" width="160" height="160" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2800&pause=1000&color=22D3EE&center=true&vCenter=true&width=740&lines=Hi+%F0%9F%91%8B+I'm+Amir+Choudhary;Full-stack+developer;JavaScript+%7C+Python;I+build+products+people+use" alt="Typing intro" />
-</div>
-
-<p align="center">
+  <img src="assets/amir034-github-avatar.png" alt="Amir Choudhary" width="180" height="180" />
+  <h1>Hi 👋 I'm Amir Choudhary</h1>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=1000&color=22D3EE&center=true&vCenter=true&width=740&lines=Full-stack+developer;JavaScript+%7C+Python;I+build+products+people+actually+use" alt="Typing intro" />
+  <br />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://komarev.com/ghpvc/?username=amir034&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
-</p>
+</div>
 
 ---
 
@@ -37,7 +25,7 @@ I build web apps, storefronts, and tools with **JavaScript** and **Python**. I c
 ## 🛠️ Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,python,nodejs,vercel,git,github,vscode" alt="Tech stack icons" />
+  <img src="https://skillicons.dev/icons?i=js,html,css,python,nodejs,vercel,git,github,vscode" alt="Tech stack" />
 </p>
 
 <p align="center">
@@ -90,8 +78,4 @@ I build web apps, storefronts, and tools with **JavaScript** and **Python**. I c
   <a href="https://github.com/amir034"><img src="https://img.shields.io/badge/GitHub-amir034-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
   <a href="https://mr-fmge.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Mr.FMGE-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Mr.FMGE" /></a>
   <a href="https://hnhandicraft.vercel.app"><img src="https://img.shields.io/badge/Shop-HN_Handicraft-a78bfa?style=for-the-badge&logo=safari&logoColor=white" alt="HN Handicraft" /></a>
-</p>
-
-<p align="center">
-  <img src="https://quote-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote" />
 </p>
