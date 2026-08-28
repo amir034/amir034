@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10172a"/>
+      <stop offset="100%" stop-color="#1b1233"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="170" rx="24" fill="url(#card)"/>
+  <rect x="24" y="18" width="1152" height="4" rx="2" fill="url(#line)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="150" y="72" font-size="28" fill="#22d3ee" font-weight="800">JS</text>
+    <text x="150" y="102" font-size="14" fill="#94a3b8">Frontend</text>
+
+    <text x="350" y="72" font-size="28" fill="#60a5fa" font-weight="800">PY</text>
+    <text x="350" y="102" font-size="14" fill="#94a3b8">Python</text>
+
+    <text x="550" y="72" font-size="28" fill="#f472b6" font-weight="800">ESP</text>
+    <text x="550" y="102" font-size="14" fill="#94a3b8">32 / 8266</text>
+
+    <text x="750" y="72" font-size="28" fill="#38bdf8" font-weight="800">BOT</text>
+    <text x="750" y="102" font-size="14" fill="#94a3b8">Telegram</text>
+
+    <text x="950" y="72" font-size="28" fill="#facc15" font-weight="800">AI</text>
+    <text x="950" y="102" font-size="14" fill="#94a3b8">Hugging Face</text>
+  </g>
+  <text x="600" y="146" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" fill="#cbd5e1">Netlify  ·  Vercel  ·  Arduino  ·  HTML  ·  CSS  ·  Git</text>
+</svg>

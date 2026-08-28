@@ -1,22 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-label="Amir Choudhary">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Amir Choudhary">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#070b16"/>
-      <stop offset="100%" stop-color="#12183a"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="55%" stop-color="#0b1233"/>
+      <stop offset="100%" stop-color="#1a1030"/>
     </linearGradient>
     <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#22d3ee">
-        <animate attributeName="stop-color" values="#22d3ee;#818cf8;#f472b6;#22d3ee" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#22d3ee;#818cf8;#f472b6;#facc15;#22d3ee" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#818cf8">
-        <animate attributeName="stop-color" values="#818cf8;#f472b6;#22d3ee;#818cf8" dur="7s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#a78bfa">
+        <animate attributeName="stop-color" values="#a78bfa;#f472b6;#22d3ee;#a78bfa" dur="8s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#f472b6">
-        <animate attributeName="stop-color" values="#f472b6;#22d3ee;#818cf8;#f472b6" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#f472b6;#22d3ee;#a78bfa;#f472b6" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-    <filter id="soft">
-      <feGaussianBlur stdDeviation="8" result="b"/>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="b"/>
       <feMerge>
         <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
@@ -24,34 +29,39 @@
     </filter>
   </defs>
 
-  <rect width="1100" height="240" rx="28" fill="url(#bg)"/>
-  <path d="M0,190 C180,140 280,220 460,180 C650,140 740,210 1100,150 L1100,240 L0,240 Z" fill="#22d3ee" opacity="0.08">
-    <animate attributeName="d" dur="8s" repeatCount="indefinite"
-      values="M0,190 C180,140 280,220 460,180 C650,140 740,210 1100,150 L1100,240 L0,240 Z;
-              M0,170 C200,210 300,140 500,190 C680,230 820,150 1100,180 L1100,240 L0,240 Z;
-              M0,190 C180,140 280,220 460,180 C650,140 740,210 1100,150 L1100,240 L0,240 Z"/>
+  <rect width="1200" height="320" rx="32" fill="url(#sky)"/>
+  <circle cx="1080" cy="70" r="90" fill="url(#orb)">
+    <animate attributeName="opacity" values="0.25;0.7;0.25" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="250" r="70" fill="#a78bfa" opacity="0.12">
+    <animate attributeName="r" values="50;80;50" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <path fill="#22d3ee" opacity="0.12">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0,250 C200,210 360,280 560,230 C760,180 940,260 1200,210 L1200,320 L0,320 Z;
+              M0,230 C240,270 380,200 600,250 C820,300 980,210 1200,240 L1200,320 L0,320 Z;
+              M0,250 C200,210 360,280 560,230 C760,180 940,260 1200,210 L1200,320 L0,320 Z"/>
   </path>
 
-  <circle cx="980" cy="58" r="46" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.7">
-    <animate attributeName="r" values="36;52;36" dur="3.5s" repeatCount="indefinite"/>
+  <circle cx="80" cy="46" r="2.5" fill="#fff">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.1s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="980" cy="58" r="8" fill="#22d3ee">
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+  <circle cx="240" cy="28" r="2" fill="#a78bfa">
+    <animate attributeName="opacity" values="0.1;1;0.1" dur="2.8s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="90" cy="50" r="3" fill="#a78bfa">
-    <animate attributeName="cy" values="50;40;50" dur="2.6s" repeatCount="indefinite"/>
+  <circle cx="980" cy="40" r="2" fill="#22d3ee">
+    <animate attributeName="cy" values="40;28;40" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="160" cy="30" r="2" fill="#22d3ee">
-    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1040" cy="160" r="2.5" fill="#f472b6">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/>
+  <circle cx="1120" cy="180" r="2.5" fill="#f472b6">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="1.7s" repeatCount="indefinite"/>
   </circle>
 
-  <text x="72" y="88" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" letter-spacing="6" fill="#67e8f9">HELLO WORLD</text>
-  <text x="72" y="150" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="58" font-weight="800" fill="url(#neon)" filter="url(#soft)">Amir Choudhary</text>
-  <text x="72" y="192" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" fill="#cbd5e1">Frontend JS  ·  Python  ·  ESP32  ·  Telegram  ·  Hugging Face  ·  Netlify</text>
-  <rect x="72" y="208" height="4" rx="2" fill="url(#neon)">
-    <animate attributeName="width" values="90;420;90" dur="5s" repeatCount="indefinite"/>
+  <text x="70" y="78" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" letter-spacing="8" fill="#67e8f9">CREATOR  ·  BUILDER  ·  SHIPPER</text>
+  <text x="70" y="160" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="72" font-weight="800" fill="url(#neon)" filter="url(#glow)">Amir Choudhary</text>
+  <text x="70" y="214" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" fill="#e2e8f0">I turn ideas into live products — web, bots, and hardware.</text>
+  <rect x="70" y="236" height="5" rx="3" fill="url(#neon)">
+    <animate attributeName="width" values="120;520;120" dur="5.5s" repeatCount="indefinite"/>
   </rect>
+  <text x="70" y="286" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" fill="#94a3b8">Frontend JS   Python   ESP32   ESP8266   Telegram   Hugging Face   Netlify</text>
 </svg>
