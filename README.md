@@ -5,6 +5,12 @@
 <br />
 
 <div align="center">
+  <img src="assets/amir034-github-avatar.png" alt="Amir Choudhary profile picture" width="160" height="160" />
+</div>
+
+<br />
+
+<div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2800&pause=1000&color=22D3EE&center=true&vCenter=true&width=740&lines=Hi+%F0%9F%91%8B+I'm+Amir+Choudhary;Full-stack+developer;JavaScript+%7C+Python;I+build+products+people+use" alt="Typing intro" />
 </div>
 
