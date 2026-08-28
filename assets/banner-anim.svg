@@ -1,28 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140" role="img" aria-label="Amir Choudhary animated banner">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-label="Amir Choudhary">
   <defs>
-    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b16"/>
+      <stop offset="100%" stop-color="#12183a"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#22d3ee">
-        <animate attributeName="stop-color" values="#22d3ee;#818cf8;#f472b6;#22d3ee" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#22d3ee;#818cf8;#f472b6;#22d3ee" dur="7s" repeatCount="indefinite"/>
       </stop>
       <stop offset="50%" stop-color="#818cf8">
-        <animate attributeName="stop-color" values="#818cf8;#f472b6;#22d3ee;#818cf8" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#818cf8;#f472b6;#22d3ee;#818cf8" dur="7s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#f472b6">
-        <animate attributeName="stop-color" values="#f472b6;#22d3ee;#818cf8;#f472b6" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#f472b6;#22d3ee;#818cf8;#f472b6" dur="7s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <rect width="900" height="140" rx="18" fill="#0b1020"/>
-  <circle cx="80" cy="70" r="18" fill="none" stroke="url(#glow)" stroke-width="3">
-    <animate attributeName="r" values="14;22;14" dur="2.4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/>
+
+  <rect width="1100" height="240" rx="28" fill="url(#bg)"/>
+  <path d="M0,190 C180,140 280,220 460,180 C650,140 740,210 1100,150 L1100,240 L0,240 Z" fill="#22d3ee" opacity="0.08">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0,190 C180,140 280,220 460,180 C650,140 740,210 1100,150 L1100,240 L0,240 Z;
+              M0,170 C200,210 300,140 500,190 C680,230 820,150 1100,180 L1100,240 L0,240 Z;
+              M0,190 C180,140 280,220 460,180 C650,140 740,210 1100,150 L1100,240 L0,240 Z"/>
+  </path>
+
+  <circle cx="980" cy="58" r="46" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.7">
+    <animate attributeName="r" values="36;52;36" dur="3.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="80" cy="70" r="6" fill="#22d3ee">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="1.6s" repeatCount="indefinite"/>
+  <circle cx="980" cy="58" r="8" fill="#22d3ee">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="120" y="62" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="36" font-weight="800" fill="url(#glow)">Amir Choudhary</text>
-  <text x="120" y="98" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" fill="#94a3b8">Frontend JS · Python · ESP32 · Telegram · Hugging Face</text>
-  <rect x="120" y="112" width="220" height="3" rx="2" fill="url(#glow)">
-    <animate attributeName="width" values="80;320;80" dur="4s" repeatCount="indefinite"/>
+  <circle cx="90" cy="50" r="3" fill="#a78bfa">
+    <animate attributeName="cy" values="50;40;50" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="30" r="2" fill="#22d3ee">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1040" cy="160" r="2.5" fill="#f472b6">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="72" y="88" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" letter-spacing="6" fill="#67e8f9">HELLO WORLD</text>
+  <text x="72" y="150" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="58" font-weight="800" fill="url(#neon)" filter="url(#soft)">Amir Choudhary</text>
+  <text x="72" y="192" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" fill="#cbd5e1">Frontend JS  ·  Python  ·  ESP32  ·  Telegram  ·  Hugging Face  ·  Netlify</text>
+  <rect x="72" y="208" height="4" rx="2" fill="url(#neon)">
+    <animate attributeName="width" values="90;420;90" dur="5s" repeatCount="indefinite"/>
   </rect>
 </svg>
